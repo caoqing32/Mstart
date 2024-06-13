@@ -1,0 +1,42 @@
+# Binaries for programs and plugins and Compiled Object files, Static and Dynamic libs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Folders
+_test
+_obj
+
+# Test binary, built with "go test -c"
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+tmp/
+.tmp/
+
+# IDE specific files
+.vscode
+.idea
+*.iml
+## vim swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+## vim session
+Session.vim
+## temporary
+.netrwhist
+*~
+## auto-generated tag files
+tags
+
+# env file
+.env
+
